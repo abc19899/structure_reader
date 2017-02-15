@@ -5,7 +5,7 @@ from setuptools import setup
 setup(name='structure_reader',
       version='0.1',
       description='A package to deserialize C/C++ based structure',
-      # url='http://github.com/storborg/funniest',
+      url='http://github.com/abc19899@foxmail.com/structure_reader',
       author='Shiqiang Zhang',
       author_email='abc19899@foxmail.com',
       license='MIT',
