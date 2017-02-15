@@ -1,0 +1,9 @@
+.cache
+.eggs
+.git
+.idea
+__pycache__
+*.pyc
+structure_reader.egg-info
+
+!.gitignore
