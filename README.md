@@ -19,12 +19,10 @@
 与python struct模块的区别:
 
 	优点:
-
 		struct.unpack/pack接口输出/输入的是一个元组, 需要程序员自行拆分/组合元组, 而structure_reader反序列化后, 是以python对象的方式存储的,具有自省能力
 		struct没有对结构体嵌套进行相关处理, structure_reader可以随意嵌套(当然不能递归嵌套自己!)
 
-	确定:
-
+	缺点:
 		structure_reader需要事先生成供内部使用的structure对象才能使用. 如果你只有少量的结构体, 建议你手动书写代码. 另外可以用我写的另外一个模块gen_code_for_structure_reader来批量生成代码, 但是配置方面会复杂一些.
 
 
